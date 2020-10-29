@@ -13,6 +13,7 @@
 		05613714254B167E00868FA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05613713254B167E00868FA8 /* Preview Assets.xcassets */; };
 		0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0561371C254B172700868FA8 /* Main.xcdatamodeld */; };
 		05613721254B1A5900868FA8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05613720254B1A5900868FA8 /* DataController.swift */; };
+		058FA52D254B2A4200D39EA6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058FA52C254B2A4200D39EA6 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		05613715254B167E00868FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0561371D254B172700868FA8 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		05613720254B1A5900868FA8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowCaseApp.entitlements; sourceTree = "<group>"; };
+		058FA52C254B2A4200D39EA6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058FA52D254B2A4200D39EA6 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +46,7 @@
 			children = (
 				0561370B254B167C00868FA8 /* ShowCaseApp */,
 				0561370A254B167C00868FA8 /* Products */,
+				058FA52B254B2A4200D39EA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +61,7 @@
 		0561370B254B167C00868FA8 /* ShowCaseApp */ = {
 			isa = PBXGroup;
 			children = (
+				058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */,
 				0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */,
 				0561370E254B167C00868FA8 /* ContentView.swift */,
 				05613720254B1A5900868FA8 /* DataController.swift */,
@@ -73,6 +79,14 @@
 				05613713254B167E00868FA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		058FA52B254B2A4200D39EA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				058FA52C254B2A4200D39EA6 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShowCaseApp/ShowCaseApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShowCaseApp/Preview Content\"";
 				DEVELOPMENT_TEAM = JGX8KL9J9F;
@@ -297,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShowCaseApp/ShowCaseApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ShowCaseApp/Preview Content\"";
 				DEVELOPMENT_TEAM = JGX8KL9J9F;
