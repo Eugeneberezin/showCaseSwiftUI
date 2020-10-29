@@ -14,6 +14,8 @@
 		0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0561371C254B172700868FA8 /* Main.xcdatamodeld */; };
 		05613721254B1A5900868FA8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05613720254B1A5900868FA8 /* DataController.swift */; };
 		058FA52D254B2A4200D39EA6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058FA52C254B2A4200D39EA6 /* CloudKit.framework */; };
+		058FA530254B52D200D39EA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA52F254B52D200D39EA6 /* HomeView.swift */; };
+		058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA532254B53C000D39EA6 /* ProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		05613720254B1A5900868FA8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowCaseApp.entitlements; sourceTree = "<group>"; };
 		058FA52C254B2A4200D39EA6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		058FA52F254B52D200D39EA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		058FA532254B53C000D39EA6 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,9 @@
 			children = (
 				058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */,
 				0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */,
+				058FA532254B53C000D39EA6 /* ProjectView.swift */,
 				0561370E254B167C00868FA8 /* ContentView.swift */,
+				058FA52F254B52D200D39EA6 /* HomeView.swift */,
 				05613720254B1A5900868FA8 /* DataController.swift */,
 				0561371C254B172700868FA8 /* Main.xcdatamodeld */,
 				05613710254B167E00868FA8 /* Assets.xcassets */,
@@ -158,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */,
 				0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */,
 				05613721254B1A5900868FA8 /* DataController.swift in Sources */,
 				0561370F254B167C00868FA8 /* ContentView.swift in Sources */,
+				058FA530254B52D200D39EA6 /* HomeView.swift in Sources */,
 				0561370D254B167C00868FA8 /* ShowCaseAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
