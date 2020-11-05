@@ -12,6 +12,8 @@
 		0542C21A254F6CB3007344F9 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542C219254F6CB3007344F9 /* EditItemView.swift */; };
 		0542C21D254F72F4007344F9 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542C21C254F72F4007344F9 /* ItemRowView.swift */; };
 		0542C2202550DEB3007344F9 /* Binding-OnChnge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542C21F2550DEB3007344F9 /* Binding-OnChnge.swift */; };
+		0542C24F25539098007344F9 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542C24E25539098007344F9 /* ProjectHeaderView.swift */; };
+		0542C25225539510007344F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0542C25125539510007344F9 /* Colors.xcassets */; };
 		0561370D254B167C00868FA8 /* ShowCaseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */; };
 		0561370F254B167C00868FA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0561370E254B167C00868FA8 /* ContentView.swift */; };
 		05613711254B167E00868FA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05613710254B167E00868FA8 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		0542C219254F6CB3007344F9 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		0542C21C254F72F4007344F9 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		0542C21F2550DEB3007344F9 /* Binding-OnChnge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChnge.swift"; sourceTree = "<group>"; };
+		0542C24E25539098007344F9 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		0542C25125539510007344F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		05613709254B167C00868FA8 /* ShowCaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowCaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseAppApp.swift; sourceTree = "<group>"; };
 		0561370E254B167C00868FA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			children = (
 				058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */,
 				0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */,
+				0542C24E25539098007344F9 /* ProjectHeaderView.swift */,
 				058FA532254B53C000D39EA6 /* ProjectView.swift */,
 				0542C21C254F72F4007344F9 /* ItemRowView.swift */,
 				0561370E254B167C00868FA8 /* ContentView.swift */,
@@ -88,6 +93,7 @@
 				05613720254B1A5900868FA8 /* DataController.swift */,
 				0561371C254B172700868FA8 /* Main.xcdatamodeld */,
 				05613710254B167E00868FA8 /* Assets.xcassets */,
+				0542C25125539510007344F9 /* Colors.xcassets */,
 				05613715254B167E00868FA8 /* Info.plist */,
 				05613712254B167E00868FA8 /* Preview Content */,
 			);
@@ -167,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0542C25225539510007344F9 /* Colors.xcassets in Resources */,
 				05613714254B167E00868FA8 /* Preview Assets.xcassets in Resources */,
 				05613711254B167E00868FA8 /* Assets.xcassets in Resources */,
 			);
@@ -180,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */,
+				0542C24F25539098007344F9 /* ProjectHeaderView.swift in Sources */,
 				0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */,
 				0542C217254D39F7007344F9 /* Project-CoreDataHelpers.swift in Sources */,
 				0542C2202550DEB3007344F9 /* Binding-OnChnge.swift in Sources */,
