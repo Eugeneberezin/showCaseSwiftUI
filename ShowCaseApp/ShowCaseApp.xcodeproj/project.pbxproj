@@ -20,6 +20,7 @@
 		05613714254B167E00868FA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05613713254B167E00868FA8 /* Preview Assets.xcassets */; };
 		0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0561371C254B172700868FA8 /* Main.xcdatamodeld */; };
 		05613721254B1A5900868FA8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05613720254B1A5900868FA8 /* DataController.swift */; };
+		05616DDE25550AC600E2FD58 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05616DDD25550AC600E2FD58 /* EditProjectView.swift */; };
 		058FA52D254B2A4200D39EA6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058FA52C254B2A4200D39EA6 /* CloudKit.framework */; };
 		058FA530254B52D200D39EA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA52F254B52D200D39EA6 /* HomeView.swift */; };
 		058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA532254B53C000D39EA6 /* ProjectView.swift */; };
@@ -41,6 +42,7 @@
 		05613715254B167E00868FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0561371D254B172700868FA8 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		05613720254B1A5900868FA8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		05616DDD25550AC600E2FD58 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowCaseApp.entitlements; sourceTree = "<group>"; };
 		058FA52C254B2A4200D39EA6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		058FA52F254B52D200D39EA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */,
 				0542C24E25539098007344F9 /* ProjectHeaderView.swift */,
 				058FA532254B53C000D39EA6 /* ProjectView.swift */,
+				05616DDD25550AC600E2FD58 /* EditProjectView.swift */,
 				0542C21C254F72F4007344F9 /* ItemRowView.swift */,
 				0561370E254B167C00868FA8 /* ContentView.swift */,
 				0542C219254F6CB3007344F9 /* EditItemView.swift */,
@@ -190,6 +193,7 @@
 				0542C24F25539098007344F9 /* ProjectHeaderView.swift in Sources */,
 				0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */,
 				0542C217254D39F7007344F9 /* Project-CoreDataHelpers.swift in Sources */,
+				05616DDE25550AC600E2FD58 /* EditProjectView.swift in Sources */,
 				0542C2202550DEB3007344F9 /* Binding-OnChnge.swift in Sources */,
 				05613721254B1A5900868FA8 /* DataController.swift in Sources */,
 				0542C21D254F72F4007344F9 /* ItemRowView.swift in Sources */,
