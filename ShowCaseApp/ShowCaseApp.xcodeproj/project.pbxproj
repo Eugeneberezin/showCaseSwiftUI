@@ -22,6 +22,7 @@
 		05613721254B1A5900868FA8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05613720254B1A5900868FA8 /* DataController.swift */; };
 		05616DDE25550AC600E2FD58 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05616DDD25550AC600E2FD58 /* EditProjectView.swift */; };
 		05616DE125588E9F00E2FD58 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05616DE025588E9F00E2FD58 /* Sequence-Sorting.swift */; };
+		05616DE7255A118100E2FD58 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05616DE6255A118100E2FD58 /* SelectSomethingView.swift */; };
 		058FA52D254B2A4200D39EA6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058FA52C254B2A4200D39EA6 /* CloudKit.framework */; };
 		058FA530254B52D200D39EA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA52F254B52D200D39EA6 /* HomeView.swift */; };
 		058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA532254B53C000D39EA6 /* ProjectView.swift */; };
@@ -45,6 +46,7 @@
 		05613720254B1A5900868FA8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		05616DDD25550AC600E2FD58 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		05616DE025588E9F00E2FD58 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
+		05616DE6255A118100E2FD58 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowCaseApp.entitlements; sourceTree = "<group>"; };
 		058FA52C254B2A4200D39EA6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		058FA52F254B52D200D39EA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */,
 				0542C24E25539098007344F9 /* ProjectHeaderView.swift */,
 				058FA532254B53C000D39EA6 /* ProjectView.swift */,
+				05616DE6255A118100E2FD58 /* SelectSomethingView.swift */,
 				05616DE025588E9F00E2FD58 /* Sequence-Sorting.swift */,
 				05616DDD25550AC600E2FD58 /* EditProjectView.swift */,
 				0542C21C254F72F4007344F9 /* ItemRowView.swift */,
@@ -198,6 +201,7 @@
 				0542C217254D39F7007344F9 /* Project-CoreDataHelpers.swift in Sources */,
 				05616DDE25550AC600E2FD58 /* EditProjectView.swift in Sources */,
 				0542C2202550DEB3007344F9 /* Binding-OnChnge.swift in Sources */,
+				05616DE7255A118100E2FD58 /* SelectSomethingView.swift in Sources */,
 				05613721254B1A5900868FA8 /* DataController.swift in Sources */,
 				0542C21D254F72F4007344F9 /* ItemRowView.swift in Sources */,
 				0561370F254B167C00868FA8 /* ContentView.swift in Sources */,
