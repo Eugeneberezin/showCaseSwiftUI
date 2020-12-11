@@ -14,6 +14,7 @@
 		0542C2202550DEB3007344F9 /* Binding-OnChnge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542C21F2550DEB3007344F9 /* Binding-OnChnge.swift */; };
 		0542C24F25539098007344F9 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542C24E25539098007344F9 /* ProjectHeaderView.swift */; };
 		0542C25225539510007344F9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0542C25125539510007344F9 /* Colors.xcassets */; };
+		054902A02582F68F00825916 /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549029F2582F68F00825916 /* Color-Additions.swift */; };
 		0554ED0A25608E90008F544B /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 0554ED0925608E90008F544B /* Awards.json */; };
 		0554ED0D25608F31008F544B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554ED0C25608F31008F544B /* Bundle-Decodable.swift */; };
 		0554ED1025609934008F544B /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554ED0F25609934008F544B /* Award.swift */; };
@@ -40,6 +41,7 @@
 		0542C21F2550DEB3007344F9 /* Binding-OnChnge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChnge.swift"; sourceTree = "<group>"; };
 		0542C24E25539098007344F9 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		0542C25125539510007344F9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0549029F2582F68F00825916 /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		0554ED0925608E90008F544B /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		0554ED0C25608F31008F544B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		0554ED0F25609934008F544B /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				0542C213254D2E7E007344F9 /* Items-CoreDataHelpers.swift */,
 				0542C216254D39F7007344F9 /* Project-CoreDataHelpers.swift */,
 				058FA52F254B52D200D39EA6 /* HomeView.swift */,
+				0549029F2582F68F00825916 /* Color-Additions.swift */,
 				05613720254B1A5900868FA8 /* DataController.swift */,
 				0561371C254B172700868FA8 /* Main.xcdatamodeld */,
 				05613710254B167E00868FA8 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 				0554ED1325609B6C008F544B /* AwardsView.swift in Sources */,
 				0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */,
 				0542C217254D39F7007344F9 /* Project-CoreDataHelpers.swift in Sources */,
+				054902A02582F68F00825916 /* Color-Additions.swift in Sources */,
 				05616DDE25550AC600E2FD58 /* EditProjectView.swift in Sources */,
 				0542C2202550DEB3007344F9 /* Binding-OnChnge.swift in Sources */,
 				05616DE7255A118100E2FD58 /* SelectSomethingView.swift in Sources */,
