@@ -14,7 +14,7 @@ extension Item {
         case creationDate
     }
     var itemTitle: String {
-        title ?? "New item"
+        title ?? NSLocalizedString("New item", comment: "Create new item")
     }
     
     var itemDetail: String {

@@ -1,0 +1,94 @@
+/* 
+  Localizable.strings
+  ShowCaseApp
+
+  Created by Eugene Berezin on 12/12/20.
+  
+*/
+/* GENERAL STRINGS */
+
+"OK" = "OK";
+"Delete" = "Удалить";
+"Basic settings" = "Основные настройки";
+
+
+
+
+/* MAIN ACTIVITIES */
+
+"Home" = "Домашняя страница";
+"Open" = "Открыть";
+"Closed" = "Закрыть";
+"Awards" = "Награды";
+
+
+
+/* HOME VIEW */
+
+"Up next" = "Следующие";
+"More to explore" = "Посмотреть больше...";
+
+
+
+/* PROJECTS VIEW */
+
+"Open Projects" = "Открытые проект";
+"Closed Projects" = "Закрытые проекты";
+"Add Project" = "Новый проект";
+"Add New Item" = "Добавить новый проект";
+"There's nothing here right now" = "НИЧЕ НЕТ";
+
+/* A button that shows a menu with the following options */
+"Sort" = "Отсортировать";
+"Sort items" = "Отсовртировать проекты"; /* The title of the menu */
+"Optimized" = "Опримизированные"; /* Sort using an optimized algorithm */
+"Creation Date" = "Дата создания"; /* Sort by the date items were created */
+"Title" = "Называние"; /* Sort by item title */
+
+/* Default names for a new project and a new item */
+"New Project" = "Новый проект";
+"New Item" = "Новая делать";
+
+
+
+/* EDITING PROJECTS */
+"Edit Project" = "Редактировать";
+"Project name" = "Имя проекты";
+"Description of this project" = "Описание проекты";
+"Custom project color" = "Костомизированные проекты";
+
+/* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
+"Close this project" = "Закрыть этот проект";
+"Closing a project moves it from the Open to Closed tab; deleting it removes the project entirely." = "Вы уверенны, что вы хотите закрыть этот проект";
+"Reopen this project" = "Открыть опять";
+"Delete this project" = "Удалить проект";
+"Delete project?" = "Удалить проект?";
+"Are you sure you want to delete this project? You will also delete all the items it contains." = "Вы уверенны, что вы хотите удалить проект";
+
+
+
+/* EDITING ITEMS */
+"Edit Item" = "Изменить айтем";
+"Item name" = "Имя";
+"Description" = "Описание";
+"Priority" = "Приоретизация";
+"Low" = "Low";
+"Medium" = "Medium";
+"High" = "High";
+
+"Mark Completed" = "Отметить как законченный"; /* Mark this item as being completed (finished/accomplished) */
+
+
+
+/* AWARDS */
+
+"Locked" = "Закрыт";
+"Unlocked: %@" = "Не закрыт: %@";
+
+
+
+/* OTHER STRINGS */
+
+/* Shown by default when the user hasn't select a project or item */
+"Please select something from the menu to begin." = "Please select something from the menu to begin.";
+
