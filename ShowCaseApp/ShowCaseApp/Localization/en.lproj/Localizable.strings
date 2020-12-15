@@ -27,6 +27,7 @@
 
 "Up next" = "Up next";
 "More to explore" = "More to explore";
+"%@, %lld items, %g%% complete." = "%@, %lld items, %g%% complete.";
 
 
 
@@ -37,6 +38,8 @@
 "Add Project" = "Add Project";
 "Add New Item" = "Add New Item";
 "There's nothing here right now" = "There's nothing here right now";
+"%@, completed." = "%@, completed.";
+"%@, high priority." = "%@, high priority.";
 
 /* A button that shows a menu with the following options */
 "Sort" = "Sort";
@@ -56,6 +59,19 @@
 "Project name" = "Project name";
 "Description of this project" = "Description of this project";
 "Custom project color" = "Custom project color";
+"Select a project color" = "Select a project color";
+"Pink" = "Pink";
+"Purple" = "Purple";
+"Red" = "Red";
+"Orange" = "Orange";
+"Gold" = "Gold";
+"Green" = "Green";
+"Teal" = "Teal";
+"Light Blue" = "Light Blue";
+"Dark Blue" = "Dark Blue";
+"Midnight" = "Midnight";
+"Dark Gray" = "Dark Gray";
+"Gray" = "Gray";
 
 /* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
 "Close this project" = "Close this project";

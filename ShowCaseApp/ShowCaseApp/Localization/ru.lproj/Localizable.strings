@@ -27,6 +27,8 @@
 
 "Up next" = "Следующие";
 "More to explore" = "Посмотреть больше...";
+"%@, %lld items, %g%% complete." = "%@, %lld путктов, %g%% выполены.";
+
 
 
 
@@ -37,6 +39,8 @@
 "Add Project" = "Новый проект";
 "Add New Item" = "Добавить новый проект";
 "There's nothing here right now" = "НИЧЕ НЕТ";
+"%@, completed." = "%@, завершенный проект.";
+"%@, high priority." = "%@, высокая важность.";
 
 /* A button that shows a menu with the following options */
 "Sort" = "Отсортировать";
@@ -56,6 +60,19 @@
 "Project name" = "Имя проекты";
 "Description of this project" = "Описание проекты";
 "Custom project color" = "Костомизированные проекты";
+"Select a color" = "Выбиркти цвет";
+"Pink" = "Розовый";
+"Purple" = "Фиолетовый";
+"Red" = "Красный";
+"Orange" = "Оранжевый";
+"Gold" = "Золотой";
+"Green" = "Зелёный";
+"Teal" = "Бирюзовый";
+"Light Blue" = "Голубой";
+"Dark Blue" = "Синий";
+"Midnight" = "Черный";
+"Dark Gray" = "Темно-серый";
+"Gray" = "Серый";
 
 /* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
 "Close this project" = "Закрыть этот проект";

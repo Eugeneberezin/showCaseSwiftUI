@@ -33,6 +33,10 @@ struct AwardsView: View {
                                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
                                 .foregroundColor(dataController.hasEarnAward(award: award) ? Color(award.color) :  Color.secondary.opacity(0.5))
                         }
+                        .accessibilityLabel(Text(dataController.hasEarnAward(award: award)  ? "Unlocked: \(award.name)" : "Locked"))
+                        .accessibilityHint(Text(award.description))
+                        
+                      
                     }
                 }
             }

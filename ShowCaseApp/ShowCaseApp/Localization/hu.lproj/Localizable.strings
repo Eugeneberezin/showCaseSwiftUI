@@ -25,6 +25,8 @@
 /* HOME VIEW */
 "Up next" = "Következő";
 "More to explore" = "Felfedezendő dolgok";
+"%@, %lld items, %g%% complete." = "%@, %lld tétel, %g%% kész.";
+
 
 
 
@@ -35,6 +37,8 @@
 "Add Project" = "Projekt hozzáadása";
 "Add New Item" = "Új tétel hozzáadása";
 "There's nothing here right now." = "Itt most nincs semmi.";
+"%@, completed." = "%@, elkészült.";
+"%@, high priority." = "%@, elsőbbségi.";
 
 /* A button that shows a menu with the following options */
 "Sort" = "Válogatás";
@@ -54,6 +58,19 @@
 "Project name" = "Projekt név";
 "Description of this project" = "Projekt dokumentáció";
 "Custom project color" = "Egyedi projekt szín";
+"Select a color" = "Válassza ki a színt";
+"Pink" = "Rózsaszín";
+"Purple" = "Lila";
+"Red" = "Piros";
+"Orange" = "Narancs sárga";
+"Gold" = "Arany";
+"Green" = "Zöld";
+"Teal" = "Zöldeskék";
+"Light Blue" = "Világos kék";
+"Dark Blue" = "Sötét kék";
+"Midnight" = "Éjfél";
+"Dark Gray" = "Sötét szürke";
+"Gray" = "Szürke";
 
 /* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
 "Close this project" = "Projekt bezárása";
