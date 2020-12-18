@@ -18,6 +18,8 @@
 		054902AE2585829B00825916 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 054902B02585829B00825916 /* Localizable.strings */; };
 		054902B5258586E800825916 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 054902B7258586E800825916 /* Localizable.stringsdict */; };
 		054902BC2585882800825916 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 054902BE2585882800825916 /* Awards.json */; };
+		054902C5258C152100825916 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902C4258C152100825916 /* ItemListView.swift */; };
+		054902C8258C175900825916 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902C7258C175900825916 /* ProjectSummaryView.swift */; };
 		0554ED0D25608F31008F544B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554ED0C25608F31008F544B /* Bundle-Decodable.swift */; };
 		0554ED1025609934008F544B /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554ED0F25609934008F544B /* Award.swift */; };
 		0554ED1325609B6C008F544B /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554ED1225609B6C008F544B /* AwardsView.swift */; };
@@ -53,6 +55,8 @@
 		054902BD2585882800825916 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		054902C02585883000825916 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		054902C12585883200825916 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ru; path = ru.lproj/Awards.json; sourceTree = "<group>"; };
+		054902C4258C152100825916 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		054902C7258C175900825916 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		0554ED0C25608F31008F544B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		0554ED0F25609934008F544B /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		0554ED1225609B6C008F544B /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
@@ -140,6 +144,8 @@
 				05616DE025588E9F00E2FD58 /* Sequence-Sorting.swift */,
 				058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */,
 				0561370C254B167C00868FA8 /* ShowCaseAppApp.swift */,
+				054902C4258C152100825916 /* ItemListView.swift */,
+				054902C7258C175900825916 /* ProjectSummaryView.swift */,
 			);
 			path = ShowCaseApp;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */,
+				054902C8258C175900825916 /* ProjectSummaryView.swift in Sources */,
 				0542C24F25539098007344F9 /* ProjectHeaderView.swift in Sources */,
 				0554ED1325609B6C008F544B /* AwardsView.swift in Sources */,
 				0561371E254B172700868FA8 /* Main.xcdatamodeld in Sources */,
@@ -250,6 +257,7 @@
 				0561370F254B167C00868FA8 /* ContentView.swift in Sources */,
 				05616DE125588E9F00E2FD58 /* Sequence-Sorting.swift in Sources */,
 				0554ED0D25608F31008F544B /* Bundle-Decodable.swift in Sources */,
+				054902C5258C152100825916 /* ItemListView.swift in Sources */,
 				0542C214254D2E7E007344F9 /* Items-CoreDataHelpers.swift in Sources */,
 				058FA530254B52D200D39EA6 /* HomeView.swift in Sources */,
 				0561370D254B167C00868FA8 /* ShowCaseAppApp.swift in Sources */,
