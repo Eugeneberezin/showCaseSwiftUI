@@ -125,12 +125,10 @@ struct ProjectView: View {
     
     func delete(_ offsets: IndexSet, from project: Project) {
         let allItems = project.projectItems(using: sortOrder)
-        
         for offset in offsets {
             let item = allItems[offset]
             dataController.delete(item)
         }
-        
         dataController.save()
     }
     
@@ -140,12 +138,9 @@ struct ProjectView: View {
         project.creationDate = Date()
         dataController.save()
     }
-    
-    
 }
 
 struct ProjectView_Previews: PreviewProvider {
-    
     static var dataController = DataController.preview
     static var previews: some View {
         ProjectView(showClosedProjects: false)
@@ -153,6 +148,4 @@ struct ProjectView_Previews: PreviewProvider {
             .environmentObject(dataController)
     }
 }
-
-
 
