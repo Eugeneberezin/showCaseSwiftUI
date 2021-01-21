@@ -34,6 +34,8 @@
 		05616DE7255A118100E2FD58 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05616DE6255A118100E2FD58 /* SelectSomethingView.swift */; };
 		057728F925AFD3480051423A /* ShowCaseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057728F825AFD3480051423A /* ShowCaseAppTests.swift */; };
 		0577290325AFD6F60051423A /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0577290225AFD6F60051423A /* AssetTest.swift */; };
+		0577979725B8F6EB008ECC14 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0577979625B8F6EB008ECC14 /* ProjectTests.swift */; };
+		0577979B25B8FC9B008ECC14 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0577979A25B8FC9B008ECC14 /* AwardTests.swift */; };
 		058FA52D254B2A4200D39EA6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058FA52C254B2A4200D39EA6 /* CloudKit.framework */; };
 		058FA530254B52D200D39EA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA52F254B52D200D39EA6 /* HomeView.swift */; };
 		058FA533254B53C000D39EA6 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FA532254B53C000D39EA6 /* ProjectView.swift */; };
@@ -87,6 +89,8 @@
 		057728F825AFD3480051423A /* ShowCaseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCaseAppTests.swift; sourceTree = "<group>"; };
 		057728FA25AFD3480051423A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0577290225AFD6F60051423A /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
+		0577979625B8F6EB008ECC14 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		0577979A25B8FC9B008ECC14 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		058FA529254B2A1300D39EA6 /* ShowCaseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowCaseApp.entitlements; sourceTree = "<group>"; };
 		058FA52C254B2A4200D39EA6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		058FA52F254B52D200D39EA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 				057728F825AFD3480051423A /* ShowCaseAppTests.swift */,
 				057728FA25AFD3480051423A /* Info.plist */,
 				0577290225AFD6F60051423A /* AssetTest.swift */,
+				0577979625B8F6EB008ECC14 /* ProjectTests.swift */,
+				0577979A25B8FC9B008ECC14 /* AwardTests.swift */,
 			);
 			path = ShowCaseAppTests;
 			sourceTree = "<group>";
@@ -399,7 +405,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0577290325AFD6F60051423A /* AssetTest.swift in Sources */,
+				0577979B25B8FC9B008ECC14 /* AwardTests.swift in Sources */,
 				057728F925AFD3480051423A /* ShowCaseAppTests.swift in Sources */,
+				0577979725B8F6EB008ECC14 /* ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
